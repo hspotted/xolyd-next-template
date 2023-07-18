@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Xolyd Next.js Starter Kit
+
+The Xolyd Next.js Starter Kit is a resource developed by Xolyd, designed to accelerate the development of your projects. It provides a powerful set of features and industry-standard tools to ensure a robust foundation for building high-quality web applications.
+
+## Key Features
+
+- **Next.js 13.4:** Benefit from the latest version of Next.js, a minimalistic framework for server-rendered React applications.
+- **Eslint + Prettier:** Integrated with Eslint and Prettier to keep your code clean, maintainable, and consistent.
+- **Tailwind CSS:** Utilize the utility-first CSS framework Tailwind CSS for rapid UI development.
+- **Commitizen:** An implementation of conventional commits specification for commit message formatting that facilitates collaboration.
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to create a new project using the Xolyd Next.js Starter Kit.
+
+### Prerequisites
+
+Ensure that you have Node.js installed on your system. This is required to manage your project's dependencies.
+
+### Project Setup
+
+Clone the Xolyd Next.js Starter Kit repository and navigate into your project folder:
+
+```bash
+gh repo clone hspotted/xolyd-next-template [project-name]
+cd [project-name]
+```
+
+Install the project's dependencies:
+
+```bash
+npm install
+```
+
+To start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Commitizen Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To ensure consistent commit messages, Xolyd uses Commitizen.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To configure Commitizen globally on your machine, run:
 
-## Learn More
+```bash
+npm install --global commitizen
+```
 
-To learn more about Next.js, take a look at the following resources:
+After that, you can make commits using:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+git add .
+cz
+git push
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Conclusion
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The Xolyd Next.js Starter Kit provides a comprehensive platform for developers to kick-start their Next.js projects with a solid foundation of best practices, latest features, and powerful tools. Start building your Next.js applications with Xolyd today.
